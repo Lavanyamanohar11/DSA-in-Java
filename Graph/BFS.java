@@ -3,10 +3,10 @@
 class Solution {
     // Function to return Breadth First Traversal of given graph.
     public ArrayList<Integer> bfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
-
-        ArrayList<Integer> ans = new ArrayList<Integer>();
-        Queue<Integer> queue = new LinkedList<Integer>();
-        Set<Integer> visit = new HashSet<Integer>();
+        // code here
+        ArrayList<Integer> ans = new ArrayList<>();
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> visit = new HashSet<>();
         
         queue.offer(0);
         visit.add(0);
